@@ -1,0 +1,20 @@
+// Copyright Chateau Pageot, Inc. All Rights Reserved.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "ProceduralCityMineGameMode.generated.h"
+
+UCLASS(minimalapi)
+class AProceduralCityMineGameMode : public AGameModeBase
+{
+	GENERATED_BODY()
+
+public:
+	AProceduralCityMineGameMode();
+
+};
+
+
+
